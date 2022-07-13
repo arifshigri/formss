@@ -1,0 +1,423 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* =======================header start================== */
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(241, 233, 218);
+    display: flex;
+}
+.logo h1{
+    padding: 6px;
+    margin-left: 50px;
+    margin-top: 18px;
+    color: blue;
+
+}
+header ol{
+    margin-top: 27px;
+    display: flex;
+    margin-left: 300px;
+}
+header ol li{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 20px;
+    color: rgb(108, 107, 107);
+}
+
+/* ===========================Home section start================== */
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(212, 216, 219);
+}
+.mainpage{
+    background-image:url(./images.jpg);
+    width: 100%;
+    height: 70vh;
+}
+.mainpage img{
+    height:100%;
+}
+.mainpage-content{
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    position: relative;
+    top: 35%;
+}
+.mainpage-content h1{
+    width: 500px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.mainpage-content p{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainpage-content button{
+    background-color: rgb(146, 146, 248);
+    padding: 10px;
+    border-style: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+.premium-quaility{
+    height: 30vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.premium-head{
+    width: 70%;
+    margin: 10px 80px;
+}
+.quaility-btn{
+    /* margin: 100px 50px; */
+}
+.quaility-btn button{
+    background-color: rgb(133, 133, 240);
+padding: 10px;
+text-transform: capitalize;
+border-style: none;
+border-radius: 4px;
+color: white;
+font-weight: bold;
+}
+
+
+
+/* ==================Features section start here===========================  */
+.features {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 32px 0px;
+}
+.features h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+.features .paraG{
+    font-size: 16px;
+    width: 60%;
+    margin: 0 auto;
+    text-transform: lowercase;
+    text-align: center;
+    font-weight: 400;
+    padding: 16px 0px;
+}
+.image_txt_parent_container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_txt_parent_container .image_container{
+    width: 45%;
+}
+.image_txt_parent_container .image_container img{
+    width: 100%;
+}
+.image_txt_parent_container .txt_container{
+    width: 50%;
+}
+.image_txt_parent_container .txt_container .designers_div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image_txt_parent_container .txt_container .designers_div .icon{
+    width: 13%;
+    border-radius: 50%;
+    border: 1px solid rebeccapurple;
+    padding: 30px;
+}
+.image_txt_parent_container .txt_container .designers_div .icon i{
+    font-size: 25px;
+    color: blue;
+}
+.image_txt_parent_container .txt_container .designers_div .para_div{
+    width: 80%;
+   display: flex;
+   flex-direction: column;
+}
+.image_txt_parent_container .txt_container .designers_div .para_div h3{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.image_txt_parent_container .txt_container .designers_div .para_div p{
+    font-size: 17px;
+    width: 100%;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+/* .image_txt_parent_container .txt_container{
+    width: 100%;
+} */
+/* =====================creative section ====================== */
+
+#creative{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(64, 62, 62);
+}
+.creative-head{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.creative-head h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.creative-head p{
+  color: white;
+  width: 40%;
+  margin: 0 auto;
+  
+}
+.creative-head button{
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(87, 87, 250);
+    color: white;
+    margin-top: 25px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-style: none;
+}
+#creative img{
+      margin-left: 170px;
+}
+
+/* =================services section============================ */
+
+#services{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.services-head{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.services-head h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.services-head p{
+  color: black;
+  width: 50%;
+  margin: 0 auto;
+  
+}
+.service-offers{
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+}
+.service-offers .service-offers1{
+    width: 25%;
+    margin-left: 70px;
+    height: 65vh;
+    
+    
+}
+.offer-sect1{
+    display: flex;
+    position: relative;
+    top: 20%;
+    bottom: 50px;
+}
+.service-offers .service-offers1 .icon{
+    width: 80px;
+    height: 50px;
+    border: 2px solid blue;
+    border-radius: 100%;
+    padding: 20px;
+    
+}
+.offer-sect2{
+    display: flex;
+    position: relative;
+    top: 30%;
+}
+.ux-design{
+    margin-left: 10px;
+}
+.ios-app{
+    margin-left: 10px;
+}
+
+/* =========================our work section======================= */
+
+#our-work{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.work-head{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.work-head h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.work-head p{
+  color: black;
+  width: 50%;
+  margin: 0 auto;
+  
+}
+#our-work .list-item{
+       text-align: center;
+       justify-content: center;
+}
+#our-work .list-item ul{
+    display: flex;
+    background-color: rgb(228, 224, 224);
+    width: 20%;
+    margin: 0% auto;
+    margin-top: 40px;
+}
+#our-work .list-item ul li{
+    list-style: none;
+    margin: 8px 5px;
+    cursor: pointer;
+}
+.list1{
+    background-color: rgb(62, 62, 251);
+}
+.work-images{
+    width: 90%;
+    height: 60vh;
+    margin: 0 auto;
+}
+.images-sect1{
+    margin-left: 60px;
+}
+.work-images img{
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+/* ============================about us=============================== */
+.about-us{
+    width: 100%;
+    height: 100vh;
+}
+.aboutus-head{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.aboutus-head h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.aboutus-head p{
+  color: black;
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+.aboutus-sect1{
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    display: flex;
+}
+.aboutus-sect1 .box1{
+    width: 45%;
+}
+.aboutus-sect1 .box1 h3{
+    font-size: 30px;
+}
+.aboutus-sect1 .box1 hr{
+    width: 40%;
+    color: blue;
+}
+.black-background{
+    width: 100%;
+    height: 55vh;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: black;
+}
+.aboutus-sect1 .box2{
+    width: 45%;
+    margin-left: 20px;
+}
+.aboutus-sect1 .box2 h3{
+    font-size: 30px;
+}
+.aboutus-sect1 .box2 hr{
+    width: 40%;
+    color: blue;
+}
+.aboutus-sect1 .box2 .content{
+    width: 100%;
+    height: 55vh;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.aboutus-sect1 .box2 .content p{
+    font-size: 20px;
+}
+.checkbox{
+    display: flex;
+    margin-top: 40px;
+}
+.cheekbox2{
+    margin-left: 30%;
+}
+.boxbtn{
+    padding: 8px 10px;
+    margin-top: 20px;
+    background-color: rgb(108, 108, 246);
+    border-style: none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+}
